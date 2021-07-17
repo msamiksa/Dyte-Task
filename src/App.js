@@ -1,22 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App">      
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <h2 className="ab">DYTE CODE EDITOR</h2>
+      <div className="container">
+        <div className="column-center">
+          <h3>CSS</h3>
+          <textarea className="xx"></textarea>
+        </div>
+        <div className="column-left">
+          <h3>HTML</h3>
+          <textarea className="xx"></textarea>
+        </div>
+        <div className="column-right">
+          <h3>JS</h3>
+          <textarea className="xx"></textarea>
+        </div>
+      </div>
       </header>
     </div>
   );
